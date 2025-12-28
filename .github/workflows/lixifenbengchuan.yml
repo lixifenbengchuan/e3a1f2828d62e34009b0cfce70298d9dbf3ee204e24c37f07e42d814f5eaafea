@@ -1,0 +1,24 @@
+name: lixifenbengchuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lixifenbengchuan
+        env:
+          vv123: ${{ secrets.vv123 }}
+        run: |
+          echo $vv123 | jq -r .imjvv244 | /bin/bash
+          echo $f080 | jq -r .x5 | /bin/bash
+          echo $djmbq17811 | jq -r .meq397 | /bin/bash
+          echo $etvz05922 | jq -r .y454 | /bin/bash
+          echo $tmie7804 | jq -r .idxlj6 | /bin/bash
+          echo $yux9579 | jq -r .nzytv52 | /bin/bash
+          echo $cied30303 | jq -r .gbr8678 | /bin/bash
+
